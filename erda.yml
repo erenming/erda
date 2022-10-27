@@ -432,7 +432,6 @@ services:
   streaming:
     labels:
       cpu_bound: "true"
-    cmd: /erda/cmd/monitor/streaming/bin
     ports:
       - port: 7091
         protocol: "TCP"
